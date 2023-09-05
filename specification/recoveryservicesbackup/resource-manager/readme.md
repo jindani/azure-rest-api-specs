@@ -55,6 +55,14 @@ semantic-validator: true
 message-format: json
 ```
 
+### Tag: package-2023-09
+
+These settings apply only when `--tag=package-2023-09` is specified on the command line.
+
+```yaml $(tag) == 'package-2023-09'
+input-file:
+  - Microsoft.RecoveryServices/stable/2023-09-01/bms.json
+```
 
 ### Tag: package-2023-04
 
